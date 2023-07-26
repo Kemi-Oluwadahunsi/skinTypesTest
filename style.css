@@ -1,0 +1,578 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   background: linear-gradient( to right,rgba(41, 163, 41, 0.2), rgba(102, 255, 0, 0.4));
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center;
+   font-size: 1rem;
+   line-height: 1.75;
+   text-align: justify;
+}
+
+.startingComment{
+    background: url('../Images/Background Logo.jpg');
+    height: 80rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: -20%;
+}
+
+.knowYourSkin{
+    color:rgb(54, 48, 36);
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: .7rem 0;
+    font-size: 2.5rem;
+    margin-top: -1%;
+    color: rgb(11, 17, 1);
+}
+
+.howToTest h2{
+    font-size: 2rem;
+}
+
+.howToTest h3{
+    font-size: 1.5rem;
+}
+.knowYourSkin h1, .knowYourSkin h2, .knowYourSkin h3{
+    color: rgb(22, 22, 1);
+}
+
+.types{
+    margin-top: -2%
+}
+
+.types li{
+    list-style-type: none;
+}
+
+.knowYourSkin .howToTest .Test{
+    text-decoration: underline;
+}
+
+.result{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 1.3rem;
+}
+
+
+.know li{
+    padding-top: 0.5%;
+}
+
+.basicTypes{
+    color: rgb(235, 225, 225);
+}
+
+.know{
+    font-size: 1.2rem;
+    font-family: 'Libre Baskerville', serif;
+    text-align: justify;
+    font-size: 1.3rem;
+}
+
+.howToTest *{
+    padding: .7rem 0;
+}
+
+.skinTypes{
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    color: rgb(19, 31, 1);
+}
+
+.NORMY, .OILYY, .COMBY, .DRIEY{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    border: 5px  solid green;
+    width: 15%;
+    border-radius: 7px;
+    padding:2px 0;
+    
+}
+
+
+.flexContainer1, .flexContainer2, .flexContainer3, .flexContainer4{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexContainer2 img, .flexContainer4 img{
+    height: 300px;
+}
+
+
+.norm, .combi, .oil, .dries{
+    flex-basis: 30%;
+}
+
+.norm li, .combi li, .oil li, .dries li{
+    font-size: 1.3rem;
+}
+.norm h3, .oil h3, .combi h3, .dries h3{
+    font-size: 1.9rem;
+}
+
+.norm > p, .oil > p, .combi > p, .dries > p{
+    font-size: 1.3rem;
+}
+
+
+.hidden{
+    display: none;
+}
+
+.question{
+    width: 75%;
+    height: 90%;
+    margin: 5% 0 0 2% ;
+}
+
+.knowYourSkin ul > li{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.1em;
+}
+
+.generalSkin{
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: rgb(78, 78, 7);
+}
+
+.normal, .oily, .combination, .dry{
+    flex-basis: 40%; 
+}
+
+.normly li, .norming, .oil li, .oiling, .combi li, .combly, .dries li, .drily{
+    line-height: 1.75;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.norm ol li, .oil ol li, .combi ol li, .dries ol li {
+    font-size: 1.3rem;
+}
+
+
+@media screen and (max-width: 480px) {
+    .startingComment{
+        margin: 0;
+        height: 20rem;
+    }
+
+    .flexContainer1, .flexContainer2, .flexContainer3, .flexContainer4{
+       /* flex-direction: column; */
+       display: block;
+    }
+
+    .knowYourSkin{
+        width: 100%;
+        padding: .4rem .5rem;
+        font-size: 1rem;
+    }
+
+
+    .howToTest h2{
+        font-size: 1.2rem;
+    }
+    
+    .howToTest h3{
+        font-size: 1rem;
+    }
+    
+    
+    .types li{
+        display: block;
+        width: 100%;
+    }
+    
+    .knowYourSkin .howToTest .Test{
+        text-decoration: underline;
+    }
+    
+    .result{
+        text-align: center;
+        text-decoration: underline;
+        font-size: .9rem;
+    }
+    
+    .testResults li{
+        width: 100%;
+    }
+    
+    .know li{
+        padding-top: 0.5%;
+    }
+    
+    .basicTypes{
+        color: rgb(235, 225, 225);
+    }
+    
+    .know{
+        font-size: .9rem;
+    }
+    
+    .skinTypes{
+        font-size: 1.6rem;
+    }
+    
+    .NORMY, .OILYY, .COMBY, .DRIEY{
+        border: 3px  solid green;
+        width: 70%;
+        font-size: 1.3rem;
+        margin-top: .7rem;
+    }
+    
+    .flexContainer1 img{
+        justify-content: center;
+        margin: 1rem 3rem;
+        width: 70%;
+        height: 50%;
+    }
+
+    .flexContainer2 img{
+        justify-content: center;
+        margin: 1rem 3rem;
+        width: 70%;
+        height: 100%;
+    }
+    
+    .flexContainer3 img{
+        justify-content: center;
+        margin: 1rem 3rem;
+        width: 70%;
+        height: 50%;
+    }
+
+    .flexContainer4 img{
+        justify-content: center;
+        margin: 1rem 3rem;
+        width: 70%;
+        height: 100%;
+    }
+    
+    .norm, .combi, .oil, .dries{
+        flex-basis: 30%;
+    }
+    
+    .norm li, .combi li, .oil li, .dries li{
+        font-size: 1.1rem;
+        padding: 0 .5rem .7rem .5rem;
+    }
+    .norm h3, .oil h3, .combi h3, .dries h3{
+        font-size: 1.2rem;
+        padding: 0 .5rem .7rem .5rem;
+    }
+    
+    .norm > p, .oil > p, .combi > p, .dries > p{
+        font-size: 1.1rem;
+        padding: 0 .5rem .7rem .5rem;
+    }
+    
+    
+    .hidden{
+        display: none;
+    }
+    
+    .question{
+        width: 75%;
+        height: 90%;
+        margin: 5% 0 0 2% ;
+    }
+    
+    .knowYourSkin ul > li{
+        width: 50%;
+        margin: 0 auto;
+        font-size: 1.1em;
+    }
+    
+    .generalSkin{
+    
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+        color: rgb(78, 78, 7);
+    }
+    
+    .normal, .oily, .combination, .dry{
+        flex-basis: 40%; 
+    }
+    
+    .normly li, .norming, .oil li, .oiling, .combi li, .combly, .dries li, .drily{
+        line-height: 1.75;
+    }
+    
+    .bold{
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+    
+    .norm ol li, .oil ol li, .combi ol li, .dries ol li {
+        font-size: 1.1rem;
+    }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .startingComment{
+        margin: 0;
+        background-size: 100%;
+        width: 100%;
+        height: 32rem;
+    }
+
+    .flexContainer1, .flexContainer2, .flexContainer3, .flexContainer4{
+       display: block;
+    }
+
+    .knowYourSkin{
+        width: 100%;
+        padding: 1rem 1rem;
+        font-size: 2rem;
+    }
+
+
+    .howToTest h2{
+        font-size: 1.4rem;
+    }
+    
+    .howToTest h3{
+        font-size: 1.2rem;
+    }
+    
+    
+    .types li{
+        display: block;
+        width: 100%;
+    }
+    
+    .knowYourSkin .howToTest .Test{
+        text-decoration: underline;
+    }
+    
+    .result{
+        text-align: center;
+        text-decoration: underline;
+        font-size: 1.1rem;
+    }
+    
+    .testResults li{
+        width: 100%;
+    }
+    
+    .know li{
+        padding-top: 0.5%;
+    }
+    
+    .basicTypes{
+        color: rgb(235, 225, 225);
+    }
+    
+    .know{
+        font-size: 1.2rem;
+    }
+    
+    .skinTypes{
+        font-size: 2rem;
+    }
+    
+    .NORMY, .OILYY, .COMBY, .DRIEY{
+        border: 3px  solid green;
+        width: 35%;
+        font-size: 1.5rem;
+        margin-top: .7rem;
+    }
+    
+    .flexContainer1 img{
+        justify-content: center;
+        margin: 1rem 12rem;
+        width: 50%;
+        height: 30%;
+    }
+
+    .flexContainer2 img{
+        justify-content: center;
+        margin: 1rem 7rem;
+        width: 70%;
+        height: 100%;
+    }
+    
+    .flexContainer3 img{
+        justify-content: center;
+        margin: 1rem 12rem;
+        width: 50%;
+        height: 50%;
+    }
+
+    .flexContainer4 img{
+        justify-content: center;
+        margin: 1rem 7rem;
+        width: 70%;
+        height: 100%;
+    }
+    
+    .norm, .combi, .oil, .dries{
+        flex-basis: 30%;
+    }
+    
+    .norm li, .combi li, .oil li, .dries li{
+        font-size: 1.4rem;
+        padding: 0 1rem .7rem 1rem;
+    }
+    .norm h3, .oil h3, .combi h3, .dries h3{
+        font-size: 1.2rem;
+        padding: 0 1rem .7rem 1rem;
+    }
+    
+    .norm > p, .oil > p, .combi > p, .dries > p{
+        font-size: 1.4rem;
+        padding: 0 1rem .7rem 1rem;
+    }
+    
+    
+    .hidden{
+        display: none;
+    }
+    
+    .knowYourSkin ul > li{
+        width: 50%;
+        margin: 0 auto;
+        font-size: 1.3em;
+    }
+    
+    .generalSkin{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+        color: rgb(78, 78, 7);
+    }
+    
+    .normal, .oily, .combination, .dry{
+        flex-basis: 40%; 
+    }
+    
+    .normly li, .norming, .oil li, .oiling, .combi li, .combly, .dries li, .drily{
+        line-height: 1.75;
+    }
+    
+    .bold{
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    
+    .norm ol li, .oil ol li, .combi ol li, .dries ol li {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1439px) {
+    .startingComment{
+        height: 45rem;
+    }
+
+    .knowYourSkin{
+        width: 100%;
+        padding: 1rem 1rem;
+        font-size: 2.2rem;
+    }
+
+    .know{
+        font-size: 1.2rem;
+    }
+
+    .howToTest h2{
+        font-size: 1.6rem;
+    }
+
+    .howToTest h3{
+        font-size: 1.3rem;
+    }
+
+    .result{
+        font-size: 1.1rem;
+    }
+
+    .bold{
+        font-size: 1.1rem;
+    }
+
+    .skinTypes{
+        font-size: 2.3rem;
+    }
+
+    .NORMY, .OILYY, .COMBY, .DRIEY{
+        width: 30%;
+        font-size: 1.5rem;
+        margin-top: .7rem;
+    }
+
+    .flexContainer1, .flexContainer2, .flexContainer3, .flexContainer4{
+        justify-content: space-around;
+    }
+
+    .flexContainer1 img{
+        flex-basis: 32%;
+        height: 30%;
+    }
+
+    .flexContainer2 img{
+        flex-basis: 32%;
+        height: 100%;
+    }
+    
+    .flexContainer3 img{
+        width: 30%;
+        height: 50%;
+    }
+
+    .flexContainer4 img{
+        width: 32%;
+        height: 100%;
+    }
+    
+    .norm li, .combi li, .oil li, .dries li{
+        font-size: 1.1rem;
+        list-style-type: none;
+        padding-bottom: 1rem;
+    }
+    .norm > h3, .oil > h3, .combi > h3, .dries > h3{
+        font-size: 1.2rem;
+    }
+    
+    .norm > p, .oil > p, .combi > p, .dries > p{
+        font-size: 1.1rem;
+    }
+
+    .norm ol li, .oil ol li, .combi ol li, .dries ol li {
+        font-size: 1.1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 1145px) and (max-width: 1439px) {
+    .startingComment{
+        height: 5rem;
+    }
+}
