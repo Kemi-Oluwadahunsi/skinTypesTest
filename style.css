@@ -171,22 +171,24 @@ body{
 }
 
 footer{
+    font-size: 2rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 100px;
     background: rgb(157, 216, 157);
-    padding-top: 1rem;
+    padding: 1rem;
 }
 
 .copyright{
     color: rgb(78, 78, 7);
+    font-size: .6em;
 }
 
 .socialMedia > i{
     margin: 0 auto;
-    font-size: 2em;
-    margin: 0 1em;
+    font-size: 5rem;
+    padding: 0 2em;
     cursor: pointer;
 }
 
