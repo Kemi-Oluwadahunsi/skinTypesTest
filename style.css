@@ -146,7 +146,7 @@ body{
 }
 
 .generalSkin{
-
+    padding-bottom: 2rem;
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
@@ -170,6 +170,26 @@ body{
     font-size: 1.3rem;
 }
 
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background: rgb(157, 216, 157);
+    padding-top: 1rem;
+}
+
+.copyright{
+    color: rgb(78, 78, 7);
+}
+
+.socialMedia > i{
+    margin: 0 auto;
+    font-size: 2em;
+    margin: 0 1em;
+    cursor: pointer;
+}
+
 
 @media screen and (max-width: 480px) {
     .startingComment{
@@ -178,7 +198,6 @@ body{
     }
 
     .flexContainer1, .flexContainer2, .flexContainer3, .flexContainer4{
-       /* flex-direction: column; */
        display: block;
     }
 
@@ -327,6 +346,19 @@ body{
     .norm ol li, .oil ol li, .combi ol li, .dries ol li {
         font-size: 1.1rem;
     }
+
+    footer{
+        flex-direction: column;
+    }
+
+    .copyright{
+        font-size: 1rem;
+    }
+
+    .socialMedia > i{
+        font-size: 1.4em;
+        margin: 0 .3em;
+    }
 }
 
 
@@ -400,8 +432,8 @@ body{
     
     .NORMY, .OILYY, .COMBY, .DRIEY{
         border: 3px  solid green;
-        width: 35%;
-        font-size: 1.5rem;
+        width: 40%;
+        font-size: 1.4rem;
         margin-top: .7rem;
     }
     
@@ -484,6 +516,19 @@ body{
     
     .norm ol li, .oil ol li, .combi ol li, .dries ol li {
         font-size: 1.4rem;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+    .copyright{
+        font-size: 1.2rem;
+    }
+
+    .socialMedia > i{
+        font-size: 1.6em;
+        margin: 0 .5em;
     }
 }
 
